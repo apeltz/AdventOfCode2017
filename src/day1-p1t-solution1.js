@@ -21,10 +21,12 @@ function reverseCapchaLoop(digitString) {
 	let sum = 0;
 	for (let i = 0; i < digitString.length; i++) {
 		let nextIdx = i === digitString.length-1 ? 0 : i+1;
+		console.log(i, nextIdx)
 		if (digitString[i] === digitString[nextIdx]) sum += Number(digitString[nextIdx])
 	}
 	return sum;
 }
+
 
 results.reverseCapchaLoop = reverseCapchaLoop(digitString);
 

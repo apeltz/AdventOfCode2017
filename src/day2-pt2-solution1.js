@@ -37,11 +37,11 @@ function checkSumDivisible(digitString) {
 }
 
 /**
- * Itererates through an array of integers to find the max, min, and difference between
- * max and min, based on all integers in the array
+ * Itererates through an array of integers to find two evenly divisible integers,
+ * returning the quotient of those integers, else 0
  *
  * @param {Array} arr  Array of integers
- * @returns {Object}   Object containing the current max, min, and max-min for the row
+ * @returns {Number}   Quotient of divisible integers
  * @example
  * getDiff([ 3, 5, 12, 7]);
  * // => 4

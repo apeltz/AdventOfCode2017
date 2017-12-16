@@ -1,5 +1,5 @@
 toc:
-  - name: Day 1 - Solution 1 (Javascript)
+  - name: Day 1 Pt. 1 - Solution 1 (Javascript)
     description: |
       <h3 style="color:RebeccaPurple">Challenge</h3>
       [AoC 2017 Day 1](http://adventofcode.com/2017/day/1) - Take a sequence of
@@ -7,6 +7,14 @@ toc:
       <h3 style="color:LightSeaGreen">Included Functions</h3>
     children:
       - reverseCapchaLoop
+  - name: Day 1 Pt. 2 - Solution 1 (Javascript)
+    description: |
+      <h3 style="color:RebeccaPurple">Challenge</h3>
+      [AoC 2017 Day 1](http://adventofcode.com/2017/day/1) - Take a sequence of
+      digits and finds the sum of all digits that match the digit halfway around in the list.
+      <h3 style="color:LightSeaGreen">Included Functions</h3>
+    children:
+      - reverseCapchaLoopHalfWay
   - name: Day 2 Pt. 1 - Solution 1 (Javascript)
     description: |
       <h3 style="color:RebeccaPurple">Challenge</h3>
