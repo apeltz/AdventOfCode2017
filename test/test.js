@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const day3s1 = require('../src/day3-pt1-solution1.js');
+const day3s1 = require('../src/day3-pt1-solution2.js');
 
 describe(`Day 3 - Part 1`, function() {
 

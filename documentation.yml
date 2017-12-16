@@ -42,7 +42,14 @@ toc:
       the shortest path between the location of a data node in a grid.
       <h3 style="color:LightSeaGreen">Included Functions</h3>
     children:
-      - spiralNumberDistance
-      - midPoint
       - spiralNumberDistanceLoop
       - fromPerfectSqr
+  - name: Day 3 Pt. 1 - Solution 2 (Javascript)
+    description: |
+      <h3 style="color:RebeccaPurple">Challenge</h3>
+      [AoC 2017 Day 3](http://adventofcode.com/2017/day/3) - Determine the length of
+      the shortest path between the location of a data node in a grid.
+      <h3 style="color:LightSeaGreen">Included Functions</h3>
+    children:
+      - spiralNumberDistance
+      - midPoint

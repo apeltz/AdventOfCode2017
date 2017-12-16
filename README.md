@@ -17,8 +17,9 @@
     -   [checkSumDivisible](#checksumdivisible)
     -   [getDiffDivisible](#getdiffdivisible)
 -   [Day 3 Pt. 1 - Solution 1 (Javascript)](#day-3-pt-1---solution-1-javascript)
-    -   [spiralNumberDistance](#spiralnumberdistance)
     -   [spiralNumberDistanceLoop](#spiralnumberdistanceloop)
+-   [Day 3 Pt. 1 - Solution 2 (Javascript)](#day-3-pt-1---solution-2-javascript)
+    -   [spiralNumberDistance](#spiralnumberdistance)
 
 ### Day 1 Pt. 1 - Solution 1 (Javascript)
 
@@ -183,23 +184,6 @@ the shortest path between the location of a data node in a grid.
 <h3 style="color:LightSeaGreen">Included Functions</h3>
 
 
-#### spiralNumberDistance
-
-Calculates the shortest path from the number to the center of a two-dimensional grid
-
-**Parameters**
-
--   `n` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Number for which to calculate the distance from the center
-
-**Examples**
-
-```javascript
-spiralNumberDistance(361567);
-// => 326
-```
-
-Returns **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Manhattan Distance from center of the grid
-
 #### spiralNumberDistanceLoop
 
 Calculates the shortest path from the number to the center of a two-dimensional grid
@@ -212,6 +196,31 @@ Calculates the shortest path from the number to the center of a two-dimensional 
 
 ```javascript
 spiralNumberDistanceLoop(361567);
+// => 326
+```
+
+Returns **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Manhattan Distance from center of the grid
+
+### Day 3 Pt. 1 - Solution 2 (Javascript)
+
+<h3 style="color:RebeccaPurple">Challenge</h3>
+[AoC 2017 Day 3](http://adventofcode.com/2017/day/3) - Determine the length of
+the shortest path between the location of a data node in a grid.
+<h3 style="color:LightSeaGreen">Included Functions</h3>
+
+
+#### spiralNumberDistance
+
+Calculates the shortest path from the number to the center of a two-dimensional grid
+
+**Parameters**
+
+-   `n` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Number for which to calculate the distance from the center
+
+**Examples**
+
+```javascript
+spiralNumberDistance(361567);
 // => 326
 ```
 
