@@ -1,0 +1,24 @@
+{
+  "name": "adventofcode2017",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2017",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "documentation": "^5.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readme": "./node_modules/documentation/bin/documentation.js -c documentation.yml readme src/** --section=Solutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apeltz/AdventOfCode2017.git"
+  },
+  "author": "Aaron Peltz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apeltz/AdventOfCode2017/issues"
+  },
+  "homepage": "https://github.com/apeltz/AdventOfCode2017#readme"
+}

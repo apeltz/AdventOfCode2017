@@ -1,0 +1,29 @@
+toc:
+  - name: Day 1 - Solution 1 (Javascript)
+    description: |
+      <h3 style="color:RebeccaPurple">Challenge</h3>
+      [AoC 2017 Day 1](http://adventofcode.com/2017/day/1) - Take a sequence of
+      digits and finds the sum of all digits that match the next digit in the list.
+      <h3 style="color:LightSeaGreen">Included Functions</h3>
+    children:
+      - reverseCapchaLoop
+  - name: Day 2 Pt. 1 - Solution 1 (Javascript)
+    description: |
+      <h3 style="color:RebeccaPurple">Challenge</h3>
+      [AoC 2017 Day 2](http://adventofcode.com/2017/day/2) - Determine the difference
+      between the largest value and the smallest value; the checksum is the sum
+      of all of these differences.
+      <h3 style="color:LightSeaGreen">Included Functions</h3>
+    children:
+      - checkSumReducer
+      - getDiffReducer
+  - name: Day 2 Pt. 2 - Solution 1 (Javascript)
+    description: |
+      <h3 style="color:RebeccaPurple">Challenge</h3>
+      [AoC 2017 Day 2](http://adventofcode.com/2017/day/2) - Determine the difference
+      between the only two evenly divisible integers in the sequence; the checksum is the sum
+      of all of these differences.
+      <h3 style="color:LightSeaGreen">Included Functions</h3>
+    children:
+      - checkSumDivisible
+      - getDiffDivisible

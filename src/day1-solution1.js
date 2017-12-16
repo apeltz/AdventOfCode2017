@@ -2,11 +2,26 @@ const digitString = `36743676522426214741687639282183216978128565594112364817283
 
 const results = {};
 
-function reverseCapchaLoop(digits) {
+
+/**
+ * Takes a sequence of digits and finds the sum of all digits that match the next
+ * digit in the list. Note: assume the sequence wraps, where the next digit for the
+ * last digit in the sequence would be the first digit of the sequence.
+ *
+ * @param {String} digitString  A string of digits
+ * @returns {Number}            Sum of all digits that match the next digit in the sequence
+ * @example
+ * reverseCapchaLoop('123425');
+ * // => 4
+ * @example
+ * reverseCapchaLoop('91212129');
+ * // => 9
+ */
+function reverseCapchaLoop(digitString) {
 	let sum = 0;
-	for (let i = 0; i < digits.length; i++) {
-		let nextIdx = i === digits.length-1 ? 0 : i+1;
-		if (digits[i] === digits[nextIdx]) sum += Number(digits[nextIdx])
+	for (let i = 0; i < digitString.length; i++) {
+		let nextIdx = i === digitString.length-1 ? 0 : i+1;
+		if (digitString[i] === digitString[nextIdx]) sum += Number(digitString[nextIdx])
 	}
 	return sum;
 }
