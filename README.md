@@ -20,6 +20,7 @@
     -   [spiralNumberDistanceLoop](#spiralnumberdistanceloop)
 -   [Day 3 Pt. 1 - Solution 2 (Javascript)](#day-3-pt-1---solution-2-javascript)
     -   [spiralNumberDistance](#spiralnumberdistance)
+-   [Day 3 Pt. 2 - Solution 1 (Javascript)](#day-3-pt-2---solution-1-javascript)
 
 ### Day 1 Pt. 1 - Solution 1 (Javascript)
 
@@ -225,3 +226,11 @@ spiralNumberDistance(361567);
 ```
 
 Returns **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Manhattan Distance from center of the grid
+
+### Day 3 Pt. 2 - Solution 1 (Javascript)
+
+<h3 style="color:RebeccaPurple">Challenge</h3>
+[AoC 2017 Day 3](http://adventofcode.com/2017/day/3) - Determine the length of
+the shortest path between the location of a data node in a grid.
+<h3 style="color:LightSeaGreen">Included Functions</h3>
+
