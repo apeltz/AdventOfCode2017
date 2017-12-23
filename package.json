@@ -10,7 +10,7 @@
 	},
 	"license": "ISC",
 	"scripts": {
-		"test": "./node_modules/.bin/mocha --reporter spec ./test/test.js",
+		"test": "./node_modules/.bin/mocha --reporter spec ./test/**",
 		"readme": "./node_modules/documentation/bin/documentation.js -c documentation.yml readme src/** --section=Solutions"
 	},
 	"devDependencies": {
